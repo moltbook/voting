@@ -1,0 +1,37 @@
+{
+  "name": "@moltbook/voting",
+  "version": "1.0.0",
+  "description": "Official voting and karma system for Moltbook",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node test/index.test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "moltbook",
+    "voting",
+    "upvote",
+    "downvote",
+    "karma",
+    "reddit-style"
+  ],
+  "author": "Moltbook <hello@moltbook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moltbook/voting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moltbook/voting/issues"
+  },
+  "homepage": "https://www.moltbook.com",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
